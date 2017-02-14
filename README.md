@@ -2,4 +2,9 @@
 
 hello
 
-<video src="video.mp4" width="320" height="200" controls preload></video>
+<video controls> 
+  <source src=http://techslides.com/demos/sample-videos/small.webm type=video/webm> 
+  <source src=http://techslides.com/demos/sample-videos/small.ogv type=video/ogg> 
+  <source src=http://techslides.com/demos/sample-videos/small.mp4 type=video/mp4>
+  <source src=http://techslides.com/demos/sample-videos/small.3gp type=video/3gp>
+</video>
